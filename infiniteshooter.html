@@ -1,0 +1,19 @@
+<title>Infinite Shooter</title>
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<style>
+    body {
+      margin: 0;
+      background: black;
+    }
+</style>
+<div class="fixed inset-0 flex items-center justify-center" id="ModalEl">
+    <div class="bg-white max-w-md w-full p-6 text-center">
+        <h1 class="text-4xl font-bold" id="score">0</h1>
+        <p class="text-sm text-gray-700">Points</p>
+        <div>
+            <button class="bg-blue-500 text-white w-full py-3 rounded-full" id="strt_game">Start Game</button>
+        </div>
+    </div>
+</div>
+<canvas id="canvas"></canvas>
+<script src="infiniteshooter.js"></script>
