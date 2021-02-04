@@ -138,7 +138,7 @@ function spawnEnemies(){
     }
      
     enemies.push(new Enemy(x, y, radius, color, velocity))
-  }, 1500);
+  }, 1200);
 }
 
 let animateId;
